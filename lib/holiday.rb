@@ -76,8 +76,8 @@ def all_holidays_with_bbq(holiday_hash)
       if supply.include? "BBQ"
          holiday 
       end
-    end.flatten.compact
-  end
+    end
+  end.flatten.compact
 end
 
 
